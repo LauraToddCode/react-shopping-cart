@@ -14,25 +14,25 @@ const Home = (props) => {
                 <img src={img1} alt="stylus" />
                 <h3>Stylus</h3>
                 <h3>£5.00</h3>
-                <a onClick={props.addBasket} className="addToCart cart1" href="#">Add to Cart</a>
+                <a onClick={() => props.addBasket("stylus")} className="addToCart cart1" href="#">Add to Cart</a>
             </div>
             <div className="image">
                 <img src={img2} alt="smartphone" />
                 <h3>Smartphone</h3>
                 <h3>£750.00</h3>
-                <a onClick={props.addBasket} className="addToCart cart2" href="#">Add to Cart</a>
+                <a onClick={() => props.addBasket("smartphone")} className="addToCart cart2" href="#">Add to Cart</a>
             </div>
             <div className="image">
                 <img src={img3} alt="iPad" />
                 <h3>iPad</h3>
                 <h3>£1000.00</h3>
-                <a onClick={props.addBasket} className="addToCart cart3" href="#">Add to Cart</a>
+                <a onClick={() => props.addBasket("iPad")} className="addToCart cart3" href="#">Add to Cart</a>
             </div>
             <div className="image">
                 <img src={img4} alt="wireless mouse" />
                 <h3>Wireless Mouse</h3>
                 <h3>£35.00</h3>
-                <a onClick={props.addBasket} className="addToCart cart4" href="#">Add to Cart</a>
+                <a onClick={() => props.addBasket("wireless mouse")} className="addToCart cart4" href="#">Add to Cart</a>
             </div>
         </div>
     )
