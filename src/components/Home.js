@@ -32,7 +32,7 @@ const Home = (props) => {
                 <img src={img4} alt="wireless mouse" />
                 <h3>Wireless Mouse</h3>
                 <h3>£35.00</h3>
-                <a onClick={() => props.addBasket("wireless mouse")} className="addToCart cart4" href="#">Add to Cart</a>
+                <a onClick={() => props.addBasket("wirelessMouse")} className="addToCart cart4" href="#">Add to Cart</a>
             </div>
         </div>
     )
